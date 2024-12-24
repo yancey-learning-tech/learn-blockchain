@@ -175,6 +175,10 @@ importers:
         version: 5.5.4
 
   apps/hardhat:
+    dependencies:
+      solady:
+        specifier: ^0.0.287
+        version: 0.0.287
     devDependencies:
       '@nomicfoundation/hardhat-toolbox-viem':
         specifier: ^3.0.0
@@ -15950,6 +15954,10 @@ packages:
       ip-address: 9.0.5
       smart-buffer: 4.2.0
     dev: true
+
+  /solady@0.0.287:
+    resolution: {integrity: sha512-Cti/U83eqIB0e3UNxZvmkwrFrQCT9YLY1vhVguaWnOVLKzv/OU5tQbKLGpamUzMtcLSxaBjBdhaTlmiciGfhHg==}
+    dev: false
 
   /solc@0.8.26(debug@4.4.0):
     resolution: {integrity: sha512-yiPQNVf5rBFHwN6SIf3TUUvVAFKcQqmSUFeq+fb6pNRCo0ZCgpYOZDi3BVoezCPIAcKrVYd/qXlBLUP9wVrZ9g==}

@@ -4,12 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "check": "hardhat check",
+    "clean": "hardhat clean",
+    "compile": "hardhat compile",
+    "console": "hardhat console",
+    "coverage": "hardhat coverage",
+    "flatten": "hardhat flatten",
+    "help": "hardhat help",
+    "node": "hardhat node",
+    "run": "hardhat run",
+    "test": "hardhat test",
+    "typechain": "hardhat typechain",
+    "verify": "hardhat verify"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Yancey Leo",
+  "license": "MIT",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
     "hardhat": "^2.22.16"
+  },
+  "dependencies": {
+    "solady": "^0.0.287"
   }
 }
